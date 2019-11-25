@@ -1,0 +1,67 @@
+body{
+    background-color:#FAEBC8;
+    font-family: Open Sans;
+}
+body section article p {
+    
+    text-align: left;
+    
+}
+body section article {
+    width:20%;
+    display:inline-block;
+    padding:15px;
+    margin:15px;
+    
+}
+body section{
+    background-color:white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left:150px;
+    margin-right:150px;
+    box-shadow: 5px 5px 15px 5px #9C635A, 5px 5px 15px 5px #B98D7A, 5px 5px 15px 5px #B98D7A;
+    border-radius: 15px;
+   
+   
+}
+body section article h2 {
+    
+    font-size: 20px;
+  
+}
+
+.name {
+    color:#9C635A;
+    text-align: left;
+    text-shadow: 15px 16px 2px#A0A0A0;
+    
+}
+
+.hear {
+    margin:40px;
+}
+.speak {
+    padding:7px;
+    margin:30px;
+}
+.see {
+    margin:38px;
+}
+
+.second {
+   margin:17px;
+}
+.third {
+margin:15px;
+
+}
+.hspeak {
+   margin:20px;
+}
+
+
+
+
+

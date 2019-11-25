@@ -1,0 +1,51 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+body p {
+    color:#656565;
+}
+body article {
+    display: inline-block;
+}
+
+body header article :nth-child(2){
+width: 537px;
+}
+
+.gallery {
+    width: 230px;
+}
+body header article {
+    
+    height:100px;
+    padding:20px;
+    border-left-style:solid;
+    margin:10px;
+    margin-top: 25px;
+   
+   
+}
+body header article h2 {
+    text-align: left;
+    font-weight: normal;
+}
+body header article p {
+    text-align: left;
+    float:left;
+}
+body main article {
+    display: inline-block;
+    width:20%;
+    padding:15px;
+}
+body header {
+    text-align: center;
+}
+body main article p {
+    text-align: left;
+}
+body main img {
+   width: 300px;
+   height:200px;
+}
