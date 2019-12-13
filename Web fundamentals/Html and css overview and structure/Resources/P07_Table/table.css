@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body {
+    font-family: "Lato", sans-serif;
+}
+
+table {
+    color: #333333;
+    border-spacing: 0;
+    margin: auto;
+}
+
+table th {
+    color: #ffffff;
+    background-color: #90B4D6;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    height: 45px;
+    text-transform: uppercase;
+}
+
+table td {
+    padding: 5px 30px 5px 10px;
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+    background-color: #84b3ad;
+    width: 150px;
+}
+
+tr:nth-child(even) td {
+    background-color: #689ad8;
+}
