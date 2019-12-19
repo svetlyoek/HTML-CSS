@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+body {
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
+}
+
+section {
+    width: 65%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Georgia, Times, serif;
+    color: #0384BE;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+.first-title {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #0384BE;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.first-title span {
+    text-transform: none;
+}
+
+.second-title {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.second-title a {
+    text-decoration: none;
+    color: #0384BE;
+    font-weight: 100;
+    text-transform: capitalize;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+img {
+    float: left;
+    width: 20%;
+    height: 30%;
+    padding-right: 13px;
+}
+
+.first-p {
+    font-family: Arial, Verdana, sans-serif;
+    margin-top: 10px;
+    color: #665544;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.first-p::first-letter {
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-style: bold;
+}
+
+.second-p {
+    font-family: Arial, Verdana, sans-serif;
+    font-style: italic;
+    text-align: right;
+    color: #665544;
+    font-weight: 100;
+    padding-top: 10px;
+}
