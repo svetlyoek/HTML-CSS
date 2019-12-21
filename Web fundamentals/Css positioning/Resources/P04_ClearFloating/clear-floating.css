@@ -1,0 +1,65 @@
+header {
+    width: auto;
+}
+
+header, footer {
+    font-size: 20px;
+    background-color: #8B603D;
+    color: white;
+    text-align: left;
+    width: auto;
+    height: 100px;
+    margin-top: 0;
+    border: 2px solid #404243;
+    letter-spacing: 1px;
+    padding-left: 13px;
+    font-weight: 800;
+}
+
+footer {
+    margin-top: 430px;
+    font-size: 20px;
+    height: 70px;
+    ;
+}
+
+.left-menu {
+    float: left;
+}
+
+ul {
+    padding-left: 10px;
+}
+
+aside ul li {
+    list-style: none;
+    background-color: #33B5E5;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 30px;
+    text-align: left;
+    padding: 10px;
+}
+
+.right-menu {
+    float: right;
+    margin-right: 260px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.right-menu p {
+    text-align: justify;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}

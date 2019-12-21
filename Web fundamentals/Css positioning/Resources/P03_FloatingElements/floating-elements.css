@@ -1,0 +1,29 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.left, .right, .center {
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    background-color: #6495ED;
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 30px;
+}
+
+.left {
+    float: left;
+    margin-right: 10px;
+}
+
+.right {
+    float: right;
+    margin-left: 10px;
+}
+
+.center {
+    margin: 0 auto;
+}
