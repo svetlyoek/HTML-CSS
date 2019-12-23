@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 1350px;
+    height: 500px;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #DDDDDD;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    margin-top: 80px;
+    height: 70px;
+    border-radius: 12px;
+}
+
+header h1 {
+    color: #A18FDA;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding-top: 23px;
+}
+
+main {
+    width: 100%;
+    height: 75%;
+    margin: auto;
+}
+
+article {
+    display: inline-block;
+    width: 19%;
+    background-color: #EEEEEE;
+    margin-right: 33px;
+    margin-top: 40px;
+    height: 85%;
+    border-radius: 12px;
+    vertical-align: top;
+}
+
+.first-art {
+    margin-left: 110px;
+}
+
+.last-art {
+    margin-right: 0;
+}
+
+.first-p, .second-p, .third-p, .fourth-p {
+    height: 60%;
+    width: 80%;
+    border: 1px solid #9470DC;
+    border-radius: 50%;
+    margin-left: 23px;
+    background-color: #9470DC;
+}
+
+span {
+    display: inline-block;
+    padding-top: 70px;
+    color: white;
+    font-size: 40px;
+    margin-right: 80px;
+    padding-left: 90px;
+}
+
+a p:hover {
+    cursor: pointer;
+    background-color: lightblue;
+    border: none;
+}
+
+.text {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+button {
+    margin: auto;
+    width: 85%;
+    height: 40px;
+    margin-left: 20px;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    border: 1px solid #DDDDDD;
+    border-radius: 12px;
+    background-color: #DDDDDD;
+}
+
+button:hover {
+    background-color: white;
+    cursor: pointer;
+}
