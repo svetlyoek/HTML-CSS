@@ -1,0 +1,45 @@
+body {
+    font-family: Verdana, sans-serif;
+    width: 1200px;
+    margin: auto;
+}
+
+main {
+    width: 90%;
+    height: 92%;
+    margin: auto;
+    margin-top: 40px;
+    border: 1px solid #a5b2b3;
+}
+
+a {
+    display: inline-block;
+    width: 21%;
+    height: 475px;
+    vertical-align: top;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+h2 {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 227px;
+    height: 130px;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+p {
+    text-align: left;
+    color: #A9A9A9;
+}

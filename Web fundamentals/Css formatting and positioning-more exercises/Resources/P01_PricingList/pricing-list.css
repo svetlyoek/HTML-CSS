@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn&display=swap');
+body {
+    width: 1000px;
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: white;
+    margin: auto;
+}
+
+h1 {
+    color: #768394;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main {
+    margin: auto;
+}
+
+a {
+    display: inline-block;
+    width: 29.5%;
+    vertical-align: top;
+    margin: 15px;
+    text-decoration: none;
+    color: #768394;
+    border: 1px solid #DDDDDD;
+    height: 445px;
+}
+
+a h2 {
+    border: 1px solid#EBEFF2;
+    text-align: center;
+    background-color: #EBEFF2;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 15px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    border: none;
+}
+
+.price {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+p {
+    padding-left: 15px;
+}
+
+button {
+    display: block;
+    background-color: #EBEFF2;
+    margin: auto;
+}
+
+button {
+    color: #65D3E2;
+    text-transform: capitalize;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 12px;
+}
+
+.first-btn {
+    margin-top: 130px;
+}
+
+.second-btn {
+    margin-top: 95px;
+}
+
+.third-btn {
+    margin-top: 25px;
+}
+
+a:hover h2 {
+    background-color: #65D3E2;
+}
+
+a:hover .price {
+    color: #65D3E2;
+}
+
+a:hover button {
+    color: white;
+    background-color: #65D3E2;
+}
