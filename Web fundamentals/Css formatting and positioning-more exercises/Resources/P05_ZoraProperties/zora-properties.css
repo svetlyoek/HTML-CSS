@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+    font-size: 14px;
+    font-family: "Open Sans", Arial, sans-serif;
+    background-color: #F4F5F7;
+    margin: 0;
+    padding: 0;
+    height: 830px;
+    width: 800px;
+}
+
+aside {
+    float: left;
+    background-color: white;
+    width: 250px;
+    height: 800px;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.aside-name {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.aside-image {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.profile-name {
+    text-align: center;
+    color: #D3DCDC;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+nav ul {
+    padding-left: 25px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    color: #D3DCDC;
+    text-transform: uppercase;
+}
+
+nav li a i {
+    margin-top: 25px;
+}
+
+a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+main {
+    padding-left: 320px;
+    width: 1000px;
+    height: 800px;
+}
+
+section {
+    width: 1000px;
+}
+
+article {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin-right: 50px;
+    box-shadow: 8px 6px 17px -1px rgba(0, 0, 0, 0.26);
+    vertical-align: top;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.main-title {
+    font-weight: 100;
+    margin: 0;
+    padding-top: 30px;
+    width: 500px;
+}
+
+.main-title span {
+    color: #AFB6BA;
+    margin-left: 10px;
+}
+
+button {
+    display: block;
+    float: right;
+    padding: 10px;
+    border: 2px solid #F3A885;
+    background-color: #F3A885;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    outline: none;
+    margin-right: 130px;
+}
+
+button:hover {
+    color: #F3A885;
+    background-color: #F4F5F7;
+    cursor: pointer;
+}
+
+.bold-title {
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.second-title {
+    margin-bottom: 30px;
+}
+
+.image-text {
+    font-weight: 100;
+    text-transform: capitalize;
+    color: #9BA8AF;
+    margin: 0;
+    padding-left: 14px;
+    padding-bottom: 7px;
+}
+
+.rented {
+    background-color: #B8C5CD;
+    color: white;
+    width: 70px;
+    border-radius: 20px;
+    padding: 5px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    top: 50px;
+    right: 20px;
+}
+
+.listed {
+    background-color: #68BB69;
+    color: white;
+    position: relative;
+    z-index: 2;
+    width: 70px;
+    border-radius: 20px;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    top: 55px;
+    right: 20px;
+}
+
+.draft {
+    color: white;
+    width: 70px;
+    border-radius: 20px;
+    padding: 5px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    top: 55px;
+    right: 20px;
+    background-color: #91A5AE;
+    text-align: center;
+}
