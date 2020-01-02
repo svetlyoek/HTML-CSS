@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+    background-color: #927057;
+}
+
+.image-div {
+    text-align: center;
+}
+
+.image-div img {
+    margin-top: 30px;
+    border: 3px solid #E5D2A0;
+    height: 100px;
+    width: 100px;
+}
+
+.triangle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+main form {
+    width: 35%;
+    height: 300px;
+    background-color: #D5C395;
+    margin: auto;
+    margin-top: -25px;
+}
+
+form h2 {
+    padding-top: 55px;
+    padding-left: 35px;
+    color: white;
+    font-family: "Oxygen", sans-serif;
+    margin-bottom: 0;
+}
+
+main form input {
+    border: none;
+    margin-left: 35px;
+    background-color: #EFE1C4;
+    padding: 8px;
+    width: 384px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.submit-button {
+    width: 466.55px;
+    margin-top: 22px;
+}
+
+.submit {
+    width: 384px;
+    padding: 10px;
+    color: #DACA99;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background-color: #927057;
+    font-weight: bold;
+}
+
+.user-image i, .password-image i {
+    position: relative;
+    top: 25px;
+    left: 41px;
+    font-size: 17px;
+    color: #906E55;
+}
+
+.name, .password {
+    padding-left: 40px;
+    color: #AEABAA;
+    box-sizing: border-box;
+}
+
+.password {
+    padding-top: 12px;
+    height: 31px;
+}
+
+.footer-p {
+    text-align: center;
+    color: #BC9463;
+}

@@ -1,0 +1,107 @@
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    margin-top: 80px;
+}
+
+form {
+    background-color: #F7F7F7;
+    width: 60%;
+    height: 470px;
+    margin-top: 85px;
+    margin: auto;
+    border: 1px dotted black;
+    color: #888;
+}
+
+h2 {
+    width: 200px;
+    margin-bottom: 0;
+    margin-left: 30px;
+}
+
+h5 {
+    margin-top: 3px;
+    padding-bottom: 13px;
+    margin-left: 30px;
+}
+
+.title-div {
+    border-bottom: 1px dotted black;
+    height: 65px;
+    width: 95%;
+    margin: auto;
+}
+
+.name {
+    margin: 20px;
+}
+
+.email {
+    margin: 23px;
+}
+
+.name label, .email label {
+    margin-right: 10px;
+}
+
+.name input, .email input {
+    padding: 6px;
+    width: 569px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.name input::placeholder, .email input::placeholder {
+    color: #AEB7BF;
+}
+
+.name input, .email input, .message textarea, .subject select {
+    outline: none;
+}
+
+.message textarea {
+    margin-left: 50px;
+    width: 569px;
+    height: 92px;
+    padding-left: 7px;
+    box-sizing: border-box;
+    color: #AEB7BF;
+}
+
+.message label {
+    position: relative;
+    top: -79px;
+    left: 39px;
+}
+
+.subject select {
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 569px;
+    box-sizing: border-box;
+    padding: 7px 0 7px 5px;
+}
+
+.subject label {
+    position: relative;
+    left: 45px;
+}
+
+.subject option {
+    color: black;
+    background-color: #F7F7F7;
+    margin-left: 10px;
+}
+
+.button input {
+    margin-top: 25px;
+    margin-left: 120px;
+    width: 330px;
+    height: 43px;
+    color: white;
+    background-color: #E27575;
+    outline: none;
+    border-radius: 7px;
+    border: none;
+    font-size: 15px;
+}
