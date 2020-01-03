@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="search.job.css">
+    <title>Search Job</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-search"></i>
+                        Search Business
+                    </a>
+
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa fa-tags"></i>
+                        Business Categories
+                    </a>
+
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa fa-map-marker"></i>
+                        Recent Locations
+                    </a>
+
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        Agents Located
+                    </a>
+
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="upper-div">
+            <label class="business-name" for="business-name">Business Name</label>
+            <input class="first" type="text" placeholder="enter a name">
+            <label class="country" for="country">Country</label>
+            <input class="second" type="text" placeholder="search by country">
+            <label class="city" for="city">City / State</label>
+            <input class="third" type="text" placeholder="search by city or state">
+            <label class="postal" for="postal">Zip / Postal Code</label>
+            <input class="fourth" type="number" placeholder="enter a postal code">
+
+        </div>
+        <div class="middle-div">
+            <input type="submit" value="Let's find your job" style="text-transform:uppercase">
+        </div>
+        <div class="lower-div">
+            <label for="employers">Employers</label>
+            <input type="number" placeholder="1000-5000" min="1000" max="5000">
+            <label class="second-label" for="date">Startup Date</label>
+            <input class="middle" type="date" data-date="" data-date-format="dd/mm/yy" value="dd/mm/yy">
+            <label class="third-label" for="opportunity">Job Opportunity</label>
+            <input type="opportunity" placeholder="any">
+        </div>
+
+    </main>
+
+
+</body>
+
+</html>
