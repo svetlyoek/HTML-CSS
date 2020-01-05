@@ -1,0 +1,156 @@
+body {
+    font-family: Tahoma, Helvetica, sans-serif;
+    background-color: #EEEEEE;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 95%;
+    height: 530px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: white;
+}
+
+form h1 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+form h3 {
+    font-weight: 100;
+    font-size: 16px;
+    margin: 0;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px dotted black;
+}
+
+form section {
+    width: 40%;
+}
+
+form section.new-account {
+    float: left;
+    height: 340px;
+}
+
+form section.login {
+    float: right;
+    height: 340px;
+    position: relative;
+    left: 50px;
+}
+
+form section.new-account input {
+    width: 300px;
+    margin: 10px 0 10px 100px;
+    padding: 5px;
+    outline: none;
+}
+
+form section.new-account label:nth-child(1) {
+    margin-left: 98px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+form span {
+    position: relative;
+    right: 30px;
+}
+
+form section span.red {
+    color: white;
+    border: 1px solid red;
+    padding: 1px;
+    background-color: red;
+    top: 2px;
+    left: -22px;
+}
+
+form section.login label:nth-child(1) {
+    font-size: 17;
+    font-weight: 600;
+}
+
+body>form>section.login>input[type=text]:nth-child(3) {
+    margin: 10px 0 10px 0;
+    width: 300px;
+    padding: 5px;
+    outline: none;
+}
+
+body>form>section.login>input[type=number]:nth-child(6) {
+    margin: 10px 0 10px 0;
+    width: 300px;
+    padding: 5px;
+    outline: none;
+}
+
+form section.new-account input[type="checkbox"] {
+    width: 20px;
+    position: relative;
+    right: 2px;
+    height: 18px;
+}
+
+form section.new-account p {
+    position: relative;
+    left: 130px;
+    bottom: 43px;
+    font-weight: 12px;
+    font-size: 13px;
+    width: 236px;
+}
+
+form section.new-account input[type="submit"] {
+    width: 150px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #D9D9D9;
+    outline: none;
+    font-weight: 600;
+    background-color: #F0F0F0;
+    box-shadow: 3px 3px #EBEBEB;
+    position: relative;
+    bottom: 37px;
+}
+
+form section.new-account input[type="submit"]:hover {
+    background-color: #AFDF67;
+    cursor: pointer;
+}
+
+form section.login a {
+    color: #EF9E9E;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+form section.login a:hover {
+    border-bottom: 1px solid #EF9E9E;
+    cursor: pointer;
+}
+
+form section.login input[type="submit"] {
+    margin-top: 20px;
+    padding: 7px 30px;
+    border: 1px solid #D9D9D9;
+    outline: none;
+    font-weight: 600;
+    background-color: #F0F0F0;
+    box-shadow: 3px 3px #EBEBEB;
+    position: relative;
+    border-radius: 8px;
+}
+
+form section.login input[type="submit"]:hover {
+    background-color: #AFDF67;
+    cursor: pointer;
+}

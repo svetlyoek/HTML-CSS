@@ -1,0 +1,189 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 13x;
+    background-color: #EBEBEB;
+}
+
+header {
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    background-color: #F1F1F1;
+    bottom: 22px;
+    position: relative;
+    border-bottom: 1px dotted black;
+}
+
+form {
+    width: 90%;
+    margin: auto;
+}
+
+header h1 {
+    padding-top: 22px;
+    padding-left: 13px;
+    color: #32A5E7;
+    font-weight: 100;
+    font-size: 28px;
+}
+
+main form div.basic-info-div {
+    width: 100%;
+    border-bottom: 1px dotted black;
+}
+
+main form div.basic-info-div article:nth-child(1) {
+    width: 73%;
+}
+
+main form div.basic-info-div article:nth-child(2) {
+    position: relative;
+    bottom: 36px;
+}
+
+main form div.basic-info-div article:nth-child(2) input {
+    position: relative;
+    top: 21px;
+    left: 62px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+main form div.basic-info-div article:nth-child(2) span {
+    position: relative;
+    top: 22px;
+    left: 245px;
+    font-size: 18px;
+    z-index: 2;
+}
+
+main form div.basic-info-div article:nth-child(2) label {
+    position: relative;
+    font-weight: 600;
+    left: 142px;
+    bottom: 2px;
+}
+
+main form div.basic-info-div article {
+    display: inline-block;
+}
+
+main form section.personal-details {
+    width: 40%;
+    float: left;
+    margin-top: 35px;
+}
+
+main form section.request {
+    margin-top: 35px;
+    width: 50%;
+    float: right;
+}
+
+main form section.personal-details h4 {
+    margin-bottom: 4px;
+}
+
+main form section.personal-details input {
+    padding: 5px;
+    width: 250px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+main form section.request div {
+    height: 50px;
+}
+
+main form section.request label, input, select {
+    position: relative;
+    outline: none;
+}
+
+main form section.request label {
+    font-size: 14px;
+}
+
+main form section.request label:nth-child(1) {
+    bottom: 18px;
+    right: 11px;
+    left: 74px;
+}
+
+main form section.request select {
+    width: 178px;
+    right: 105px;
+    top: 5px;
+    padding: 3px;
+    left: -17px;
+}
+
+body>main>form>section.request>div.upper-request-div>label:nth-child(3) {
+    bottom: 18px;
+    left: 148px;
+}
+
+main form section.request div.upper-request-div input {
+    right: 53px;
+    top: 5px;
+    padding: 3px;
+    left: 34px;
+}
+
+main form section.request h4 {
+    position: relative;
+    right: 13px;
+    width: 200px;
+    left: 73px;
+}
+
+body>main>form>section.request>div.lower-request-div>input[type=date]:nth-child(2) {
+    top: 15px;
+    right: 75px;
+    padding: 3px;
+    width: 168px;
+}
+
+main form section.request div.lower-request-div label:nth-child(1) {
+    top: -12px;
+    left: -10px;
+}
+
+main form section.request div.lower-request-div input:nth-child(4) {
+    top: 15px;
+    padding: 3px;
+    left: 20px;
+    width: 169px;
+}
+
+main form section.request div.lower-request-div label:nth-child(3) {
+    bottom: 11px;
+    left: 93px;
+}
+
+main form section.request div.lower-request-div {
+    padding-left: 88px;
+}
+
+main div.button-div input {
+    background-color: #32A2E4;
+    padding: 7px 20px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+}
+
+main div.button-div input:hover {
+    background-color: #3BBC96;
+    cursor: pointer;
+}
+
+main div.button-div {
+    position: relative;
+    top: 221px;
+    left: 634px;
+}
