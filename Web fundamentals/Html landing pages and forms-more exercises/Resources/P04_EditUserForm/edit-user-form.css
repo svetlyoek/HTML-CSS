@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+body {
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+}
+
+header {
+    width: 90%;
+    height: 120px;
+    position: relative;
+    top: 30px;
+    margin: auto;
+    background-color: white;
+    border-top: 10px solid #324E5B;
+    border-right: 10px solid #324E5B;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #324E5B;
+    text-transform: uppercase;
+    padding: 5px 0 0 50px;
+}
+
+main {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+main form article.contact {
+    position: relative;
+    top: 230px;
+}
+
+main form article.buttons {
+    width: 50%;
+    margin: auto;
+    height: 100px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+main form article.buttons button:nth-child(1) {
+    background-color: #EEEEEE;
+    border: none;
+    padding: 10px 80px;
+    color: #FF5238;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 3px 3px #FF5238;
+    outline: none;
+    margin-right: 60px;
+}
+
+main form article.buttons button:nth-child(2) {
+    background-color: #EEEEEE;
+    border: none;
+    padding: 10px 80px;
+    color: #277A70;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 3px 3px#277A70;
+    outline: none;
+}
+
+body>main>form>article:nth-child(13) {
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 15px;
+    background-color: white;
+    position: relative;
+    top: 200px;
+}
+
+body>main>form>article:nth-child(13) input {
+    margin-right: 10px;
+}
+
+main form article.contact h4 {
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+main form article.contact a {
+    color: #277162;
+}
+
+main form label:nth-child(12) {
+    position: relative;
+    top: 280px;
+    right: 188px;
+}
+
+main form input:nth-child(11) {
+    position: relative;
+    top: 230px;
+}
+
+main form label:nth-child(10) {
+    position: relative;
+    top: 236px;
+    right: 1029px;
+}
+
+main form input:nth-child(8) {
+    position: relative;
+    top: 190px;
+    right: 865px;
+}
+
+main form input:nth-child(9) {
+    position: relative;
+    top: 190px;
+    right: 651px;
+}
+
+main form label:nth-child(7) {
+    position: relative;
+    top: 165px;
+    right: 788px;
+}
+
+body>main>form>article.groups {
+    position: relative;
+    top: 276px;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
+
+main form input:nth-child(6) {
+    position: relative;
+    top: 130px;
+    right: 600px;
+}
+
+main form label:nth-child(5) {
+    position: relative;
+    top: 107px;
+    right: 493px;
+}
+
+main form input:nth-child(4) {
+    position: relative;
+    top: 76px;
+    right: 305px;
+}
+
+main form label:nth-child(3) {
+    position: relative;
+    top: 55px;
+    right: 262px;
+}
+
+main form input:nth-child(2) {
+    position: relative;
+    top: 23px;
+    right: 74px;
+}
+
+main form label:nth-child(1) {
+    position: relative;
+    left: 2px;
+}
+
+main form input {
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+body>main>form>article.groups>input[type=checkbox]:nth-child(4) {
+    top: 1px;
+    position: relative;
+    left: 0px;
+}
+
+body>main>form>label:nth-child(8)>span {
+    position: relative;
+    top: 199px;
+    right: 850px;
+}
+
+body>main>form>label:nth-child(8)>input[type=radio] {
+    position: relative;
+    top: 200px;
+    right: 863px;
+}
+
+body>main>form>label:nth-child(9)>input[type=radio] {
+    position: relative;
+    top: 199px;
+    right: 640px;
+}
+
+body>main>form>label:nth-child(9)>span {
+    position: relative;
+    top: 199px;
+    right: 621px;
+}
