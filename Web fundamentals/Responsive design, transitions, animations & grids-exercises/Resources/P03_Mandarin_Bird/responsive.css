@@ -1,0 +1,97 @@
+@media screen and (min-width:729px) and (max-width:1200px) {
+    body header, main, footer {
+        width: 95%;
+    }
+    body header {
+        background-size: cover;
+    }
+    body #wrapper {
+        width: 100%;
+    }
+    body #wrapper section {
+        width: 93%;
+    }
+    body #wrapper section p {
+        width: auto;
+    }
+    body #wrapper aside {
+        width: 95.5%;
+        margin-top: 20px;
+    }
+    body aside article {
+        height: 220px;
+    }
+    body footer p {
+        text-align: center;
+    }
+    body header nav ul {
+        display: flex;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:730px) {
+    body header, main, footer {
+        width: 95%;
+    }
+    body header {
+        background-size: cover;
+    }
+    body #wrapper {
+        width: 100%;
+    }
+    body #wrapper section {
+        width: 93%;
+    }
+    body #wrapper section p {
+        width: auto;
+    }
+    body #wrapper aside {
+        width: 95.5%;
+        margin-top: 20px;
+    }
+    body aside article {
+        height: 220px;
+    }
+    body footer p {
+        text-align: center;
+    }
+    body header nav {
+        height: 211px;
+    }
+    body header nav ul li {
+        width: 100%;
+    }
+    body header nav ul li a {
+        text-align: center;
+    }
+    body header nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    body header main {
+        display: flex;
+        flex-direction: column;
+    }
+    body main section {
+        display: flex;
+        height: 900px;
+        flex-direction: column;
+    }
+    body main section div {
+        display: flex;
+        flex-direction: column;
+    }
+    #wrapper>main>section>div>div>img {
+        margin: auto;
+    }
+    #wrapper>main>section>div:nth-child(2), div:nth-child(3) {
+        margin-top: 100px;
+    }
+    #wrapper>main>section>div>article {
+        background-color: white;
+    }
+    #wrapper>main>section>div>div {
+        background-color: lightgreen;
+        width: 100%;
+    }
+}
