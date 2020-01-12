@@ -1,0 +1,93 @@
+@media screen and (max-width:699px) {
+    body, .wrap, .wrapper, footer {
+        width: 100%;
+    }
+    .main-head .logo {
+        width: 110px;
+        padding: 0;
+    }
+    body>div>section.hero-head>header>nav>ul {
+        margin: 0;
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+    .content-wrap {
+        width: 100%;
+    }
+    body>div>section.hero-head>div>h1 {
+        font-size: 40px;
+        padding-left: 10px;
+    }
+    body>div>section.hero-head>div>div {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    body>div>section.content.bordered>div>section {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    body>div>section.content.sponsorship.woodsmoke>div>div {
+        padding-left: 10px;
+    }
+    body>div>section.content.sponsorship.woodsmoke>div>a {
+        margin-left: 10px;
+        width: 95%;
+    }
+    body>div>section.content.sponsorship.woodsmoke>div>div>ul {
+        display: flex;
+        padding-left: 26px;
+    }
+    body>div>section.content.sponsorship.woodsmoke>div>div {
+        width: 95%;
+    }
+    body>div>section.content.sponsors>div>div>div:nth-child(2) {
+        width: 95%;
+        text-align: left;
+        padding-left: 30px;
+    }
+    body>div>section.content.sponsors>div>div>div:nth-child(5) {
+        width: 95%;
+        text-align: left;
+        padding-left: 30px;
+    }
+    body>div>footer>div.bottom>div>div>div {
+        padding-left: 10px;
+    }
+    .main-foot .wrapper {
+        display: inline;
+    }
+    body>div>footer>div.wrapper>address {
+        width: 40%;
+        float: left;
+        padding-left: 10px;
+        margin-right: 40px;
+    }
+    body>div>footer>div.wrapper>nav:nth-child(2) {
+        height: 353px;
+        margin-left: 20px;
+        margin-bottom: 0;
+        width: 75%;
+    }
+    body>div>footer>div.wrapper>nav:nth-child(3) {
+        width: 30%;
+        padding-left: 10px;
+        margin-right: 40px;
+        margin-bottom: 0;
+    }
+    body>div>footer>div.wrapper>nav:nth-child(4) {
+        height: 200px;
+        margin-left: 20px;
+        margin-bottom: 0;
+        width: 40%;
+        float: right;
+        position: relative;
+        bottom: 244px;
+        right: 54px;
+    }
+    body>div>footer {
+        height: 700px;
+    }
+    body>div>footer>div.bottom>div {
+        padding-left: 10px;
+    }
+}
