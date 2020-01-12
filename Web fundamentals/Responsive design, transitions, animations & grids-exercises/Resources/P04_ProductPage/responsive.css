@@ -1,0 +1,36 @@
+@media screen and (max-width:639px) {
+    body, .wrap, header, main, footer {
+        width: 100%;
+    }
+    body ul.navigation {
+        display: none;
+    }
+    #products-liked-list>div>ul {
+        text-align: center;
+    }
+    #products-suggestions-list>div>ul {
+        text-align: center;
+    }
+    body>footer>div>div.box.share {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+    body>footer>div>div.box.email-newsletter {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        padding-top: 10px;
+    }
+    body>footer>div>div.box.copyright {
+        width: 100%;
+        padding-top: 10px;
+        background-color: #26292D;
+    }
+    body>footer>div>div.box.copyright a, span {
+        text-align: center;
+    }
+    body>footer>div>div.box.copyright span {
+        color: #7B7E6B;
+    }
+}
